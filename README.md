@@ -11,3 +11,18 @@ function draw() {
 	line(400,400,200,200);
 	
 }
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(255);
+	fill(255);
+	rect(145,145,100,100);
+	if(mouseIsPressed)
+	background(0,255,0);
+ 
+	rect(145,145,100,100);
+	fill(255);
+}
+
